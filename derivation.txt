@@ -1,0 +1,15 @@
+function_name -> ID
+type -> INTEGER
+parameter_declaration -> ID COLON type
+type -> INTEGER
+parameter_declaration -> ID COLON type
+type -> INTEGER
+parameter_declaration -> ID COLON type
+type -> INTEGER
+parameter_declaration -> ID COLON type
+parameter_list -> parameter_declaration
+parameter_list -> parameter_declaration COMMA parameter_list
+parameter_list -> parameter_declaration COMMA parameter_list
+parameter_list -> parameter_declaration COMMA parameter_list
+type -> ID
+return_type -> type

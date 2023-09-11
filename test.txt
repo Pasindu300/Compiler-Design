@@ -1,0 +1,21 @@
+function quadratic(a:integer, b:integer, c:integer, x:integer) arrow integer {
+  var result:integer;
+  result = a * x * x + b * x + c;
+  return result;
+}
+
+function main() {
+  var a:integer;
+  var b:integer;
+  var c:integer;
+  var x:integer;
+  var y:integer;
+
+  a = 2;
+  b = 3;
+  c = 1;
+  x = 4;
+
+  y = quadratic(a, b, c, x);
+  write(y);
+}
